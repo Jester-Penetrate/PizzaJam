@@ -24,6 +24,10 @@ position = Vector2(-232, -199)
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("2_1n0d2")
 
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-248, -215)
+position_smoothing_enabled = true
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(120, 512)
 
